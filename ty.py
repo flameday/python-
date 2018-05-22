@@ -13,8 +13,8 @@ exheaders=[      ('Host','passport.tianya.cn'),
               ]
 opener.addheaders=exheaders
 loginurl='https://passport.tianya.cn/login?from=index&_goto=login'
-postdate=urllib.parse.urlencode({'vwriter': 'flameday',
-                            'vpassword': 'happy*023600',
+postdate=urllib.parse.urlencode({'vwriter': 'xxx',
+                            'vpassword': 'yyy',
                           })
 re=opener.open(loginurl,postdate.encode('utf-8'))
 #print (re.info())
